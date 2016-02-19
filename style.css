@@ -1,3 +1,71 @@
-body {
-  background: pink;
+/*
+google fonts
+*/
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Raleway:500,700,400);
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+a {
+  font-family: "Raleway", helvetica, sans-serif;
+}
+
+#container {
+  width: 100%;
+}
+
+/* --------------- */
+/*     HEADER      */
+/* --------------- */
+
+header {
+  background: #ccc;
+  width: 1200px;
+  height: 135px;
+  margin: auto;
+}
+
+.language-nav {
+  float: right;
+
+}
+
+.language-nav li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 2px;
+}
+
+.language-nav li a {
+
+  font-size: 10px;
+  font-weight: 700;
+  padding: 4px 5px 3px 5px;
+  color: #e5007d;
+  text-decoration: none;
+}
+
+.language-nav li a:hover,
+.language-nav li.active a {
+  background: #e5007d;
+  color: white;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+
+.nav-menu {
+  width: 100%;
+}
+.nav-menu a {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+  color: #222;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: inline;
+
+
 }
